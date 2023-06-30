@@ -6,6 +6,7 @@ import ComboBoxDemo from './components/ComboBoxDemo'
 import PickerDemo from './components/PickerDemo'
 import IntlNumber from './components/IntlNumber'
 import IntlDate from './components/IntlDate'
+import ReactAriaDemo from './components/reactariademo/ReactAiraDemo'
 
 export default function Home() {
     let { locale, direction } = useLocale()
@@ -21,10 +22,10 @@ export default function Home() {
                         gap='size-1200'
                     >
                         <h1>React spectrum demo</h1>
-                        {/* <ComboBoxDemo /> */}
-                        <PickerDemo />
-                        <IntlNumber />
-                        <IntlDate />
+                        {/* <PickerDemo /> */}
+                        {/* <IntlNumber /> */}
+                        {/* <IntlDate /> */}
+                        <ReactAriaDemo />
                     </Flex>
                 </div>
             </I18nProvider>
